@@ -94,7 +94,7 @@ public class Driver {
             nonBelievers.add(baby);
         }
     }
-    //function to convert the nonbelievers that have been taught for 3 years to apprentices
+    //function to convert nonbelievers to apprentices
     private static void convertNonBelievers(ArrayList<HumanGroup> nonBelievers, ArrayList<HumanGroup> apprentices, ArrayList<HumanGroup> disciples) {
         long totalNewApprentice = 0;
         //calculate the new apprentices
